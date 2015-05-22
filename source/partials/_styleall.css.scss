@@ -1,0 +1,55 @@
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
+  color: #555555;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a, td a {
+  color: #3498db;
+}
+
+a {
+  color: #3498db !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #3498db !important;
+}
+
+a:hover { 
+  color: #3498db !important;
+}
+
+body, .body {
+  background: #EBEDEE;
+}
+
+.textpadding {
+  padding: 36px;
+}
+
+// image sizes
+
+.fullimage { width: 580px }
+.halfimage { width: 290px }
+
+
+@media only screen and (max-width: 600px) {
+
+  table[class="body"] .textpadding {
+    padding: 20px !important;
+  }
+
+  // image sizes
+
+  table[class="body"] .fullimage { width: 100% !important }
+  table[class="body"] .halfimage { width: 100% !important }
+
+}
+
+// table cell borders
+// useful for seeing issues
+
+// td {
+//     border: solid 1px orange;
+// }
